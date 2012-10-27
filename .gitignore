@@ -1,7 +1,79 @@
-#*
-\#*\#
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Linux
+#
+.*
 *~
-TAGS
-db/schema.rb
-log/
-db/*.sqlite3
+*.sw[a-p]
+
+# IntelliJ / PHPStorm
+#
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Netbeans
+#
+nbproject/
+
+# OSX
+#
+.DS_Store?
+.DS_Store
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# TextMate
+#
+*.tmproj
+*.tmproject
+tmtags
+
+# Vi
+#
+*.swp
+*.swo
+
+# Vim
+#
+.*.sw[a-z]
+*.un~
+
